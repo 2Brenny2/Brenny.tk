@@ -8,7 +8,12 @@
     <h1 id="time">Current Time Here</h1>
     <script>
       Disp = document.getElementById("time")
-      Disp.innerHtml = "Cheese"
+      function UpdateDisp(){
+        var Today = new Date()
+        Disp.innerHtml = Today.getHours()+":"+Today.getMinutes()+":"+Today.getSeconds()
+        setTimeout(1000,UpdateDisp())
+      }
+      UpdateDisp()
     </script>
   </body>
 </html>
