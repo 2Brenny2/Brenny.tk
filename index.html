@@ -4,16 +4,10 @@
     <title>Brenny.tk</title>
   </head>
   <body>
-    <h1>You Smell Like Cheese</h1>
-    <h1 id="time">Current Time Here</h1>
+    <h1>Go to Brenny.tk and see your message</h1>
+    <h1 id="message"></h1>
     <script>
-      Disp = document.getElementById("time")
-      function UpdateDisp(){
-        var Today = new Date()
-        Disp.innerHtml = Today.getHours()+":"+Today.getMinutes()+":"+Today.getSeconds()
-        setTimeout(1000,UpdateDisp())
-      }
-      UpdateDisp()
+      document.getElementById("message").innerHtml = "Sus"
     </script>
   </body>
 </html>
