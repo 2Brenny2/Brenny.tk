@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #23395d;
+}
+#Header {
+  width: 100vw;
+  height: 5vh;
+  background-color: #152238;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  position: fixed;
+}
+#Header_Title {
+  color: #FFFFFF;
+  padding: 0 2.5vw;
+  font-size: 4vh;
+}
+#Body {
+  padding-top: 5vh;
+  Height: 95vh;
+  background-color: #ff5555;
+}
