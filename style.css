@@ -9,7 +9,7 @@ html, body {
 }
 #Header {
   width: 100vw;
-  height: 5vh;
+  height: 10vh;
   background-color: #152238;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
@@ -18,9 +18,9 @@ html, body {
 #Header_Title {
   color: #FFFFFF;
   padding: 0 2.5vw;
-  font-size: 4vh;
+  font-size: 8vh;
 }
 #Body {
-  padding-top: 5vh;
-  Height: 95vh;
+  padding-top: 10vh;
+  Height: 90vh;
 }
