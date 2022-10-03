@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #e34d5b;
+}
+
+#loader {
+    display: fixed;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 120px;
+    height: 120px;
+    margin: -76px 0 0 -76px;
+    border: 16px solid #FF5555;
+    border-radius: 50%;
+    border-top: 16px solid #FFFFFF;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+#Header {
+    position: fixed;
+    background-color: #323232;
+    width: 100vw;
+    height: 10vh;
+    z-index: 9999;
+    border-bottom: 5px solid #000000;
+}
+.Logo {
+    height: 8vh;
+    width: 8vh;
+    padding: 1vh;
+    position: fixed;
+}
+
+#Title {
+    position: fixed;
+    height: 8vh;
+    color: #e34d5b;
+    padding: 0vh 10vh;
+    font-size: 8vh
+}
+
+.Title-Btn {
+    position: fixed;
+    height: 10vh;
+    width: 50vh;
+    color: #e34d5b;
+    border: 0;
+    background: transparent;
+}
+
+#Body {
+    width: 100vw;
+    height: 90vh;
+    padding: 10vh 0 0 0;
+}
+
+.Header-Btn-Container {
+    height: 10vh;
+    width: 100vw;
+    padding: 1vh;
+}
+
+.Header-Btn {
+    border: 0;
+    background-color: #e34d5b;
+    width: 8vh;
+    height: 8vh;
+    border-radius: 100%;
+    margin: 0 1vw 0 0;
+    color: #FFFFFF;
+}
+
+.Header-Btn:hover {
+    transform: scale(1.1);
+    background-color: #e34d5b;
+    border: 0;
+}
+
+.Header-Btn:active {
+    transform: scale(1.05);
+    background-color: #e34d5b;
+    border: 0;
+}
+
+#Body-Sidebar {
+    width: 25vw;
+    height: 90vh;
+    padding: 10vh 0 0 0;
+    background-color: #FF5555;
+    transform: translate(75vw,0);
+    border-left: 5px solid #000000;
+    z-index: 10;
+    position: absolute;
+}
+
+#Body-Main {
+    width: 75vw;
+    height: 90vh;
+    z-index: 9;
+    border-right: 5px solid #000000;
+}
