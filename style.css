@@ -1,27 +1,30 @@
 * {
-  margin: 0;
-  padding: 0;
+    padding: 0;
+    margin: 0;
+    color: #003559;
 }
-html, body {
-  height: 100%;
-  width: 100%;
-  background-color: #23395d;
+body {
+    background-color: #006daa;
+}
+h1 {
+    font-size: 3vh;
 }
 #Header {
-  width: 100vw;
-  height: 10vh;
-  background-color: #152238;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-  position: fixed;
+    width: 100vw;
+    height: 5vh;
+    position: fixed;
+    background-color: #003559;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom: #061a40 solid 5px;
 }
 #Header_Title {
-  color: #FFFFFF;
-  padding: 0 2.5vw;
-  font-size: 8vh;
+    color: #B9D6F2;
+    padding: 0 1vw;
+    font-size: 4vh;
+    overflow-wrap: normal;
 }
 #Body {
-  padding-top: 10vh;
-  Height: 90vh;
-  background-color: transparent;
+    width: 100vw;
+    padding-top: 6vh;
 }
