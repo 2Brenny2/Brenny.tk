@@ -1,2 +1,2 @@
 # Brenny.tk
-[color=#ff5555]
+#ff5555 Test
