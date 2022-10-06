@@ -19,6 +19,7 @@ p {
     color: #B9D6F2;
     background-color: #061a40;
     margin: 1.5vh 5vw;
+    text-align: justify;
 }
 #Header {
     width: 100vw;
